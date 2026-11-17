@@ -7,4 +7,5 @@ LABEL cubix.homework.owner="Fekete Martin"
 
 ARG APP
 COPY --chown=1001 ${APP}/target/*.jar app.jar
+CMD ["java", "-jar", "/app.jar"]
 

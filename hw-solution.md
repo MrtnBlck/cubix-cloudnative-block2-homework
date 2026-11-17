@@ -15,3 +15,11 @@ docker build --build-arg APP=backapp -t cubix-backapp .
 docker image inspect cubix-frontapp
 docker image inspect cubix-backapp
 ```
+
+## Task 2
+
+### Docker Compose Run commands
+
+```bash
+docker compose up
+```
