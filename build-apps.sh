@@ -1,0 +1,1 @@
+(cd backapp && ./mvnw clean verify) && (cd frontapp && ./mvnw clean verify)
